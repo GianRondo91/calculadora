@@ -1,0 +1,124 @@
+.calculadora {
+    width: 20em;
+    height: 31.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: grid;
+    grid-template-areas: "pantalla pantalla pantalla pantalla" "btn-ac btn-masMenos btn-porciento btn-div" "btn-siete btn-ocho btn-nueve btn-por" "btn-cuatro btn-cinco btn-seis btn-menos" "btn-uno btn-dos btn-tres btn-mas" "btn-cero btn-cero btn-punto btn-igual"
+}
+
+.pantalla {
+    grid-area: pantalla;
+    height: 3em;
+    cursor: none;
+    background: #282828;
+}
+
+.btn-ac {
+    grid-area: btn-ac;
+}
+
+.btn-masMenos {
+    grid-area: btn-masMenos;
+}
+
+.btn-porciento {
+    grid-area: btn-porciento;
+}
+
+.btn-div {
+    grid-area: btn-div;
+}
+
+.btn-siete {
+    grid-area: btn-siete;
+}
+
+.btn-ocho {
+    grid-area: btn-ocho;
+}
+
+.btn-nueve {
+    grid-area: btn-nueve;
+}
+
+.btn-por {
+    grid-area: btn-por;
+}
+
+.btn-cuatro {
+    grid-area: btn-cuatro;
+}
+
+.btn-cinco {
+    grid-area: btn-cinco;
+}
+
+.btn-seis {
+    grid-area: btn-seis;
+}
+
+.btn-menos {
+    grid-area: btn-menos;
+}
+
+.btn-uno {
+    grid-area: btn-uno;
+}
+
+.btn-dos {
+    grid-area: btn-dos;
+}
+
+.btn-tres {
+    grid-area: btn-tres;
+}
+
+.btn-mas {
+    grid-area: btn-mas;
+}
+
+.btn-cero {
+    grid-area: btn-cero;
+}
+
+.btn-punto {
+    grid-area: btn-punto;
+}
+
+.btn-igual {
+    grid-area: btn-igual;
+}
+
+
+/**/
+
+.btn,
+.pantalla {
+    border: 0.05em solid #B0ACAC;
+    text-align: center;
+    font-size: larger;
+    padding: 1.5em;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: large;
+}
+
+#mostrar {
+    text-align: right;
+    color: #ECECEC;
+    font-size: 3em;
+    margin: 0;
+}
+
+.orange {
+    background: #F99008;
+    color: white;
+}
+
+.grey {
+    background: #E9E9E9;
+}
